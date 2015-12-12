@@ -4,6 +4,9 @@ function net = getBest(gen_factors, gen_perc,max_n,min_n)
     Mse(10)=zeros;
     MinCell(iterations)= zeros;
     Min_Net(iterations ) = zeros;
+    
+    
+    
     Array{1,max_n-min_n} = zeros;
 
 for n = min_n : max_n 
